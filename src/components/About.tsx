@@ -63,8 +63,8 @@ export default function About() {
                 <p className="text-blue-500 font-medium mb-4">Senior Frontend Engineer</p>
                 <p className="text-zinc-400 leading-relaxed">
                   I'm a frontend engineer who loves turning complex problems into simple, 
-                  beautiful interfaces. With 6+ years of experience at companies like Baker Hughes, 
-                  I've built everything from real-time IoT dashboards to ML-powered visualizations.
+                  beautiful interfaces. With 6+ years of experience at companies like Baker Hughes and MAPC, 
+                  I've built everything from real-time dashboards to design systems.
                 </p>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function About() {
           {/* Tech focus card - spans 2 columns */}
           <motion.div
             variants={item}
-            className="md:col-span-2 bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-3xl p-6"
+            className="md:col-span-3 bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-3xl p-6"
           >
             <Code2 className="text-blue-500 mb-4" size={28} />
             <p className="text-zinc-500 text-sm mb-2">WHAT I DO BEST</p>
