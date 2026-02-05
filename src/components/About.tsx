@@ -50,7 +50,7 @@ export default function About() {
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex-shrink-0 overflow-hidden">
                 {/* Replace with your actual image */}
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/profile.png"
                   alt="Navneet Joshi"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -127,7 +127,7 @@ export default function About() {
             <Code2 className="text-blue-500 mb-4" size={28} />
             <p className="text-zinc-500 text-sm mb-2">WHAT I DO BEST</p>
             <p className="text-xl font-semibold mb-3">
-              Building High-Performance React Applications
+              Building High-Performance, Responsive and Accessible React Applications
             </p>
             <div className="flex flex-wrap gap-2">
               {["React", "TypeScript", "Next.js", "D3.js", "GraphQL", "AWS"].map((tech) => (
