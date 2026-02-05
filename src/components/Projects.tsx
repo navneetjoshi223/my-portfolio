@@ -198,35 +198,43 @@ export default function Projects() {
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
             >
               {otherProjects.map((project) => (
-                <motion.a
+                <motion.div
                   key={project.title}
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   variants={item}
-                  className="group bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-colors"
+                  className="group bg-zinc-900/50 border border-zinc-800 rounded-2xl overflow-hidden hover:border-zinc-700 transition-colors"
                 >
-                  <div className="flex items-start justify-between mb-4">
-                    <Github className="text-zinc-500" size={24} />
-                    <ArrowUpRight
-                      className="text-zinc-600 group-hover:text-blue-500 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all"
-                      size={18}
-                    />
+                  {/* Small image carousel */}
+                  <div className="aspect-[16/10] bg-gradient-to-br from-blue-600/20 to-purple-600/20 relative overflow-hidden">
+                    <ImageCarousel images={project.images} title={project.title} />
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 to-transparent opacity-50 pointer-events-none" />
                   </div>
-                  <h4 className="font-bold mb-2 group-hover:text-blue-500 transition-colors">
-                    {project.title}
-                  </h4>
-                  <p className="text-zinc-500 text-sm mb-4 line-clamp-2">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.slice(0, 3).map((tag) => (
-                      <span key={tag} className="text-xs text-zinc-500">
-                        {tag}
-                      </span>
-                    ))}
+                  
+                  <div className="p-4">
+                    <div className="flex items-start justify-between mb-2">
+                      <h4 className="font-bold group-hover:text-blue-500 transition-colors">
+                        {project.title}
+                      </h4>
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-zinc-600 hover:text-blue-500 transition-colors"
+                      >
+                        <Github size={18} />
+                      </a>
+                    </div>
+                    <p className="text-zinc-500 text-sm mb-3 line-clamp-2">
+                      {project.description}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.slice(0, 3).map((tag) => (
+                        <span key={tag} className="text-xs text-zinc-500">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </motion.a>
+                </motion.div>
               ))}
             </motion.div>
           </>
