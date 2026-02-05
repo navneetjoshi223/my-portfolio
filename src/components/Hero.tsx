@@ -125,14 +125,14 @@ export default function Hero() {
           >
             View My Work
           </a>
-          <a
+          {/* <a
             href={personalInfo.resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-zinc-700 hover:border-zinc-500 rounded-full font-medium transition-colors"
           >
             Download Resume
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Social Links */}
