@@ -33,8 +33,11 @@ export const personalInfo = {
   export const projects = [
     {
       title: "Wyckoff Trading AI Chatbot",
-      description: "RAG-powered chatbot for trading queries using Python, FAISS, LangChain, and GPT-5. Features React frontend with interactive Streamlit visualizations.",
-      image: "/images/projects/wyckoff.png",
+      description: "RAG-powered chatbot for trading queries using Python, FAISS, LangChain, and GPT-5. Features interactive Streamlit visualizations.",
+      images: [
+        "/images/projects/wyckoff-chatbot-1.png",
+        "/images/projects/wyckoff-chatbot-2.png",
+      ],
       tags: ["React", "Python", "LangChain", "GPT-5", "Streamlit"],
       liveUrl: "#",
       githubUrl: "https://github.com/navneetjoshi223/wyckoff-chatbot",
@@ -43,7 +46,12 @@ export const personalInfo = {
     {
       title: "Verbello",
       description: "Language learning platform for native English speakers to learn Spanish, French, German, Italian, and Portuguese with interactive lessons.",
-      image: "/images/projects/verbello.png",
+      images: [
+        "/images/projects/verbello1.png",
+        "/images/projects/verbello2.png",
+        "/images/projects/verbello4.png",
+        "/images/projects/verbello5.png",
+      ],
       tags: ["React", "TypeScript", "Express", "MongoDB"],
       liveUrl: "https://verbello.netlify.app/",
       githubUrl: "https://github.com/navneetjoshi223/verbello",
@@ -52,7 +60,10 @@ export const personalInfo = {
     {
       title: "Supply Chain App",
       description: "Supply chain application displaying companies and locations on an interactive map with Flask backend and React Leaflet integration.",
-      image: "/images/projects/supplychain.png",
+      images: [
+        "/images/projects/SupplyChainApp1.png",
+        "/images/projects/SupplyChainApp2.png",
+      ],
       tags: ["React", "Flask", "Python", "Docker", "Leaflet"],
       liveUrl: "#",
       githubUrl: "https://github.com/navneetjoshi223/SupplyChainApp",
