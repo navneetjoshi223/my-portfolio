@@ -1,10 +1,10 @@
 export const personalInfo = {
     name: "Navneet Joshi",
-    roles: ["Frontend Engineer", "Full Stack Developer", "React Specialist"],
+    roles: ["Frontend Engineer", "Full Stack Engineer", "React Specialist"],
     email: "joshi.nav@northeastern.edu",
     phone: "(857) 423-5259",
     location: "Boston, MA",
-    bio: "Frontend Engineer with 6+ years of experience building high-performance React and Next.js applications. I turn complex problems into elegant, user-friendly interfaces.",
+    bio: "Software Engineer with 6+ years of experience building high-performance web applications. I turn complex problems into elegant, user-friendly interfaces.",
     resumeUrl: "/resume.pdf",
     social: {
       github: "https://github.com/navneetjoshi223",
@@ -16,7 +16,7 @@ export const personalInfo = {
   export const stats = [
     { value: "6+", label: "Years Experience" },
     { value: "100K+", label: "Data Points Visualized" },
-    { value: "$60M", label: "Savings Delivered" },
+    { value: "$9M", label: "Savings Delivered" },
     { value: "40%", label: "Performance Boost" },
   ];
   
@@ -40,7 +40,7 @@ export const personalInfo = {
         "/images/projects/science-of-forgetting-3.png",
         "/images/projects/science-of-forgetting-4.png"
       ],
-      tags: ["React", "Framer Motion", "Recharts", "Tailwind CSS"],
+      tags: ["React", "JavaScript", "Framer Motion", "Recharts", "Tailwind CSS"],
       liveUrl: "https://science-of-forgetting.vercel.app/",
       githubUrl: "https://github.com/navneetjoshi223/science-of-forgetting",
       featured: true,
@@ -90,13 +90,14 @@ export const personalInfo = {
       company: "Metropolitan Area Planning Council",
       role: "Software Engineering Co-op",
       period: "Sep 2024 - Dec 2024",
-      location: "Boston, MA",
+      location: "Boston, MA (Open to relocation anywhere in the US)",
       highlights: [
-        "Developed React apps with Next.js SSR for 101 municipalities",
-        "Built accessible component library in Storybook with WCAG 2.1 compliance",
-        "Delivered climate planning platform with Zustand state management",
+        "Developed React apps with Next.js, integrated CMS which improved content updating speed by over 97% ",
+        "Built accessible component library in Storybook with WCAG 2.1 compliance and cross-browser support",
+        "Delivered a climate planning platform used by 100+ city planners across Massachusetts to act on climate change",
+        "Worked on spatial features with React and Mapbox GL JS to visualize hiking, biking and walking trails data across Greater Boston",
       ],
-      technologies: ["React", "Next.js", "TypeScript", "Zustand", "GraphQL", "AWS"],
+      technologies: ["React", "Next.js", "JavaScript", "Zustand", "AWS"],
     },
     {
       company: "Baker Hughes",
@@ -105,8 +106,9 @@ export const personalInfo = {
       location: "Mumbai, India",
       highlights: [
         "Built real-time IoT dashboards with 100K+ data points, optimized load time from 5.6s to 3.2s",
-        "Collaborated with ML team to visualize predictive maintenance models, saving $60M annually",
+        "Collaborated with ML team to visualize predictive maintenance models in D3.js, saving $9M in potential repair costs",
         "Architected multi-tenant admin console with OAuth2 RBAC for 200+ clients",
+        "Implemented reusable components for the design system, reducing development time by 25% across 5+ teams",
       ],
       technologies: ["React", "TypeScript", "D3.js", "GraphQL", "Node.js", "AWS"],
     },
@@ -116,11 +118,11 @@ export const personalInfo = {
       period: "Jun 2017 - Oct 2019",
       location: "Mumbai, India",
       highlights: [
-        "Built D3.js visualizations for ML-driven failure predictions",
+        "Drove 25% customer retention via A/B testing and internationalization/localization across 4 languages",
+        "Built REST APIs in Java for an alerting system with Kafka and Spring Boot to notify users of critical equipment issues in real-time",
         "Implemented Node.js BFF layer reducing frontend API calls by 60%",
-        "Drove 20% customer retention via A/B testing and i18n across 4 languages",
       ],
-      technologies: ["Angular", "D3.js", "Node.js", "Spring Boot", "Kafka"],
+      technologies: ["Angular", "TypeScript", "React", "D3.js", "Node.js", "Spring Boot", "Kafka"],
     },
   ];
   
