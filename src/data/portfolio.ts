@@ -32,6 +32,20 @@ export const personalInfo = {
   
   export const projects = [
     {
+      title: "Science of Forgetting",
+      description: "An interactive storytelling experience that explains how memory fades over time using scroll-based narrative, animation, and data visualization. Built with React, Framer Motion, Recharts and Tailwind",
+      images: [
+        "/images/projects/science-of-forgetting-1.png",
+        "/images/projects/science-of-forgetting-2.png",
+        "/images/projects/science-of-forgetting-3.png",
+        "/images/projects/science-of-forgetting-4.png"
+      ],
+      tags: ["React", "Framer Motion", "Recharts", "Tailwind CSS"],
+      liveUrl: "https://science-of-forgetting.vercel.app/",
+      githubUrl: "https://github.com/navneetjoshi223/science-of-forgetting",
+      featured: true,
+    },
+    {
       title: "Wyckoff Trading AI Chatbot",
       description: "RAG-powered chatbot for trading queries using Python, FAISS, LangChain, and GPT-5. Features interactive Streamlit visualizations.",
       images: [
