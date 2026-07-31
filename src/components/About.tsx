@@ -81,7 +81,6 @@ export default function About() {
               <p className="text-zinc-500 text-sm mb-1">LOCATION</p>
               <p className="text-xl font-semibold">Boston, MA</p>
               <p className="text-zinc-500 text-sm">Open to relocation</p>
-              <p className="text-zinc-500 text-sm">Work authorized — no sponsorship needed</p>
             </div>
           </motion.div>
 

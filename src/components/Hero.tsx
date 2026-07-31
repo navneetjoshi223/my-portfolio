@@ -112,6 +112,17 @@ export default function Hero() {
           {personalInfo.bio}
         </motion.p>
 
+        {/* Work authorization badge */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
+          className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full border border-zinc-800 bg-zinc-900/50 text-sm text-zinc-400"
+        >
+          <span className="w-2 h-2 rounded-full bg-green-500" />
+          Work authorized — no sponsorship needed
+        </motion.div>
+
         {/* CTA Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
