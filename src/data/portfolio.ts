@@ -1,6 +1,6 @@
 export const personalInfo = {
     name: "Navneet Joshi",
-    roles: ["Frontend Engineer", "Full Stack Engineer", "React Specialist"],
+    roles: ["Senior Software Engineer", "Full-Stack Engineer", "React & JavaScript Specialist"],
     email: "joshi.nav@northeastern.edu",
     phone: "(857) 423-5259",
     location: "Boston, MA",
@@ -31,6 +31,21 @@ export const personalInfo = {
   };
   
   export const projects = [
+    {
+      title: "Boston Transit Copilot",
+      description: "An AI agent for checking MBTA (the T) status and arrivals in plain language, chaining its own tool calls against live data with the AI SDK, Next.js, and TypeScript.",
+      images: [
+        "/images/projects/boston-transit-copilot-1.png",
+        "/images/projects/boston-transit-copilot-2.png",
+        "/images/projects/boston-transit-copilot-3.png",
+        "/images/projects/boston-transit-copilot-4.png",
+        "/images/projects/boston-transit-copilot-5.png",
+      ],
+      tags: ["Next.js", "TypeScript", "Vercel AI SDK", "Gemini", "MBTA API"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/navneetjoshi223/boston-transit-copilot",
+      featured: true,
+    },
     {
       title: "Science of Forgetting",
       description: "An interactive storytelling experience that explains how memory fades over time using scroll-based narrative, animation, and data visualization. Built with React, Framer Motion, Recharts and Tailwind",
