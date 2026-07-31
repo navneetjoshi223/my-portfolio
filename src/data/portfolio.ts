@@ -16,7 +16,7 @@ export const personalInfo = {
   export const stats = [
     { value: "6+", label: "Years Experience" },
     { value: "100K+", label: "Data Points Visualized" },
-    { value: "$9M", label: "Savings Delivered" },
+    { value: "$8.9M", label: "Savings Delivered" },
     { value: "40%", label: "Performance Boost" },
   ];
   
@@ -102,42 +102,54 @@ export const personalInfo = {
   
   export const experience = [
     {
+      company: "IpserLab (Stealth Startup)",
+      role: "Full Stack Engineer",
+      period: "Mar 2026 - Present",
+      location: "Boston, MA (remote)",
+      highlights: [
+        "Built consumer-facing auth and checkout features in TypeScript with React Hook Form and Zod validation",
+        "Automated code quality guardrails within CI/CD (ESLint, static analysis), preventing build regressions across 10+ services",
+        "Leveraged GitHub Copilot for automated test generation and component scaffolding, speeding up feature delivery by 30%",
+      ],
+      technologies: ["TypeScript", "React", "React Hook Form", "Zod", "CI/CD", "ESLint"],
+    },
+    {
       company: "Metropolitan Area Planning Council",
       role: "Software Engineering Co-op",
       period: "Sep 2024 - Dec 2024",
-      location: "Boston, MA (Open to relocation anywhere in the US)",
+      location: "Boston, MA",
       highlights: [
-        "Developed React apps with Next.js, integrated CMS which improved content updating speed by over 97% ",
-        "Built accessible component library in Storybook with WCAG 2.1 compliance and cross-browser support",
-        "Delivered a climate planning platform used by 100+ city planners across Massachusetts to act on climate change",
-        "Worked on spatial features with React and Mapbox GL JS to visualize hiking, biking and walking trails data across Greater Boston",
+        "Developed responsive React apps with Next.js (SSR); integrated CMS via custom React Hooks, enabling 101 municipalities to self-serve content updates, reducing manual turnaround from 3 hours to <5 minutes",
+        "Owned end-to-end delivery of a climate planning platform built with React and Redux; deployed on AWS EC2 with S3 for images, enabling planners across Massachusetts to filter and act on 120+ climate resilience strategies",
+        "Authored a WCAG 2.1 accessible React component library in Storybook, reducing duplicate UI by ~40% over 3 projects",
       ],
-      technologies: ["React", "Next.js", "JavaScript", "Zustand", "AWS"],
+      technologies: ["React", "Next.js", "Redux", "Storybook", "AWS"],
     },
     {
-      company: "Baker Hughes",
+      company: "Baker Hughes (formerly GE)",
       role: "Senior Software Engineer",
       period: "Nov 2019 - Jun 2023",
       location: "Mumbai, India",
       highlights: [
-        "Built real-time IoT dashboards with 100K+ data points, optimized load time from 5.6s to 3.2s",
-        "Collaborated with ML team to visualize predictive maintenance models in D3.js, saving $9M in potential repair costs",
-        "Architected multi-tenant admin console with OAuth2 RBAC for 200+ clients",
-        "Implemented reusable components for the design system, reducing development time by 25% across 5+ teams",
+        "Built real-time IoT dashboards in React + TypeScript, merging WebSocket streams with historical API data into graphs with 100K+ points; resolved performance bottlenecks via Webpack code splitting and lazy loading, cutting LCP from 5.6s to 3.2s",
+        "Implemented a sensor anomaly alerting system in Spring Boot with REST APIs and API Gateway routing, notifying 200+ oil fields in real time; slashed API response times 4x (from ~2s to <500ms) via Redis caching and PostgreSQL query indexing",
+        "Delivered a multi-tenant user management platform with React and OAuth2 RBAC, enabling 200+ clients to self-manage provisioning and secure access for 15+ applications, decreasing support tickets by 60% and onboarding time by 40%",
+        "Engineered asset workflows with React, Java Spring Boot and GraphQL, giving geologists real-time visibility into oil well construction planning, boosting asset utilization by 150%",
+        "Architected a Jest/RTL/Cypress testing strategy for 100+ legacy React components, reducing technical debt and achieving ~85% coverage, and cutting QA cycles from 5 to 2 days",
       ],
-      technologies: ["React", "TypeScript", "D3.js", "GraphQL", "Node.js", "AWS"],
+      technologies: ["React", "TypeScript", "Spring Boot", "GraphQL", "Redis", "PostgreSQL", "Jest", "Cypress"],
     },
     {
-      company: "GE Oil & Gas / Baker Hughes",
+      company: "Baker Hughes (formerly GE)",
       role: "Software Engineer",
       period: "Jun 2017 - Oct 2019",
       location: "Mumbai, India",
       highlights: [
-        "Drove 25% customer retention via A/B testing and internationalization/localization across 4 languages",
-        "Built REST APIs in Java for an alerting system with Kafka and Spring Boot to notify users of critical equipment issues in real-time",
-        "Implemented Node.js BFF layer reducing frontend API calls by 60%",
+        "Built custom D3.js timeseries visualizations to translate complex AI/ML forecasts into simple actionable KPIs, enabling predictive maintenance that saved clients $8.9M in repair costs",
+        "Developed a Node.js/Express Backend-for-Frontend (BFF) layer to sanitize requests, manage authentication, and aggregate responses from 4 backend microservices, reducing frontend API calls by 60%",
+        "Drove 25% increase in user retention through feature-flag driven internationalization (i18n) across Arabic, French, Mandarin, and Hindi, unlocking 4 new international markets",
       ],
-      technologies: ["Angular", "TypeScript", "React", "D3.js", "Node.js", "Spring Boot", "Kafka"],
+      technologies: ["D3.js", "Node.js", "Express", "Java", "Spring Boot"],
     },
   ];
   
@@ -145,8 +157,9 @@ export const personalInfo = {
     {
       school: "Northeastern University",
       degree: "Master of Science, Information Systems",
-      period: "2023 - 2025",
+      period: "Sep 2023 - Aug 2025",
       location: "Boston, MA",
+      note: "Paused Sep - Dec 2024 for a software engineering co-op at MAPC",
     },
     {
       school: "University of Mumbai",

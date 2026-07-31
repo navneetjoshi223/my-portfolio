@@ -81,6 +81,7 @@ export default function About() {
               <p className="text-zinc-500 text-sm mb-1">LOCATION</p>
               <p className="text-xl font-semibold">Boston, MA</p>
               <p className="text-zinc-500 text-sm">Open to relocation</p>
+              <p className="text-zinc-500 text-sm">Work authorized — no sponsorship needed</p>
             </div>
           </motion.div>
 
@@ -105,8 +106,8 @@ export default function About() {
           >
             <Briefcase className="text-blue-500 mb-4" size={28} />
             <p className="text-zinc-500 text-sm mb-1">MOST RECENT</p>
-            <p className="text-lg font-semibold">MAPC</p>
-            <p className="text-zinc-500 text-sm">Software Engineering Co-op</p>
+            <p className="text-lg font-semibold">IpserLab</p>
+            <p className="text-zinc-500 text-sm">Full Stack Engineer</p>
           </motion.div>
 
           {/* Education card */}
