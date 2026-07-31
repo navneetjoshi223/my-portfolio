@@ -62,10 +62,10 @@ export default function About() {
                 <h3 className="text-2xl font-bold mb-2">Navneet Joshi</h3>
                 <p className="text-blue-500 font-medium mb-4">Senior Software Engineer</p>
                 <p className="text-zinc-400 leading-relaxed">
-                  I'm a senior software engineer who works across the stack, from React front ends
-                  to Node.js and Java backends, with a specialty in React and JavaScript. With 6+ years
-                  of experience at companies like Baker Hughes and MAPC, I've built everything from
-                  real-time dashboards to design systems.
+                  I'm a senior software engineer with 6+ years of experience across the stack, from
+                  React and TypeScript on the frontend to Node.js, Java, and cloud infrastructure
+                  underneath. At companies like Baker Hughes and MAPC, I've built everything from
+                  real-time dashboards to design systems, with particular depth in React.
                 </p>
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function About() {
             <Code2 className="text-blue-500 mb-4" size={28} />
             <p className="text-zinc-500 text-sm mb-2">WHAT I DO BEST</p>
             <p className="text-xl font-semibold mb-3">
-              Building Full-Stack Applications, with a Specialty in React & JavaScript
+              Shipping Full-Stack Products, Anchored by Deep React Expertise
             </p>
             <div className="flex flex-wrap gap-2">
               {["React", "TypeScript", "Next.js", "D3.js", "GraphQL", "AWS"].map((tech) => (
